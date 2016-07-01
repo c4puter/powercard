@@ -91,11 +91,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Supervisor"
+Date "2016-07-01"
+Rev "R1"
+Comp "c4757p / semianalog"
+Comment1 "C4-0 POWER SUPPLY"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -201,26 +201,14 @@ F 3 "" H 3400 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 2200 1900 2200
-Wire Wire Line
-	1900 2200 2300 2200
+	1700 2200 2300 2200
 Wire Wire Line
 	1900 2300 1900 2200
 Connection ~ 1900 2200
 Wire Wire Line
 	1900 2600 1900 2500
 Wire Wire Line
-	3000 2200 3300 2200
-Wire Wire Line
-	3300 2200 3400 2200
-Wire Wire Line
-	3400 2200 3700 2200
-Wire Wire Line
-	3700 2200 4200 2200
-Wire Wire Line
-	4200 2200 4800 2200
-Wire Wire Line
-	4800 2200 4900 2200
+	3000 2200 4900 2200
 Wire Wire Line
 	3300 2200 3300 2300
 Wire Wire Line
@@ -279,11 +267,7 @@ F 3 "" H 4800 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4500 4800 4600
-Wire Wire Line
-	4800 4600 4800 4700
-Wire Wire Line
-	4800 4700 4800 4800
+	4800 4500 4800 4800
 Wire Wire Line
 	4800 4500 4900 4500
 Wire Wire Line
@@ -313,13 +297,9 @@ SDA
 Text HLabel 8500 3200 2    60   BiDi ~ 0
 SCL
 Wire Wire Line
-	8500 3200 8000 3200
+	6700 3200 8500 3200
 Wire Wire Line
-	8000 3200 6700 3200
-Wire Wire Line
-	6700 3100 7700 3100
-Wire Wire Line
-	7700 3100 8500 3100
+	6700 3100 8500 3100
 $Comp
 L R-0603 R29
 U 1 1 5775BF9E
@@ -481,9 +461,7 @@ PG5
 Text HLabel 8500 4600 2    60   Input ~ 0
 DBGRX
 Wire Wire Line
-	8500 4600 8000 4600
-Wire Wire Line
-	8000 4600 6700 4600
+	6700 4600 8500 4600
 $Comp
 L R-0603 R32
 U 1 1 5776C55D

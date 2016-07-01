@@ -91,11 +91,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "-12V 1A regulator block"
+Date "2016-07-01"
+Rev "R1"
+Comp "c4757p / semianalog"
+Comment1 "C4-0 POWER SUPPLY"
 Comment2 ""
 Comment3 ""
 Comment4 ""

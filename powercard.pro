@@ -1,4 +1,4 @@
-update=Wed 29 Jun 2016 08:15:53 PM EDT
+update=Fri 01 Jul 2016 11:22:49 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -96,17 +96,6 @@ LibName83=schlib/library/symbol
 LibName84=schlib/library/TexasInstruments
 LibName85=schlib/library/Vishay
 LibName86=schlib/library/Xilinx
-[schematic_editor]
-version=1
-PageLayoutDescrFile=schlib/page_layouts/basic.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=pcblib/page_layouts/empty.kicad_wks
@@ -126,3 +115,14 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=schlib/page_layouts/semianalog_cc0.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
