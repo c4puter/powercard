@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<CAMsetup>
+	<thisfile>C:\users\cmp\My Documents\git\c4puter\powercard\zofz_stackup.camset</thisfile>
+	<morelayertypes>
+	</morelayertypes>
+	<usecolors>
+		<mixer>0.000</mixer>
+		<object type="Plated H. In">E0BFBFBF</object>
+		<object type="Plated H. Out">B326120F</object>
+		<object type="Edge In">008C8C09</object>
+		<object type="Edge Out">00809854</object>
+		<object type="Volume">BC7D8C59</object>
+		<object type="Background">006FAEFF</object>
+		<layer type="PasteMask">008080C0</layer>
+		<layer type="Silkscreen">00E3E3E3</layer>
+		<layer type="SolderMask">800B2B06</layer>
+		<layer type="Copper">F0765223</layer>
+		<layer type="Core">00000000</layer>
+		<layer type="Prepreg">00000000</layer>
+		<layer type="BoardOutline">00000000</layer>
+	</usecolors>
+	<boardlayers>
+		<layer type="PasteMask" H="35" Er="0.000" color="00689FB1">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-F.Paste.gbr</filename>
+			<filedisp>powercard-F.Paste.gbr</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00CBCFCF">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-F.SilkS.gbr</filename>
+			<filedisp>powercard-F.SilkS.gbr</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00002400">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-F.Mask.gbr</filename>
+			<filedisp>powercard-F.Mask.gbr</filedisp>
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00800000">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-F.Cu.gbr</filename>
+			<filedisp>powercard-F.Cu.gbr</filedisp>
+		</layer>
+		<layer type="Prepreg" H="200" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="004E7D9A">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-GND.Cu.gbr</filename>
+			<filedisp>powercard-GND.Cu.gbr</filedisp>
+		</layer>
+		<layer type="Prepreg" H="1200" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="00AE7AB8">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-VIN.Cu.gbr</filename>
+			<filedisp>powercard-VIN.Cu.gbr</filedisp>
+		</layer>
+		<layer type="Prepreg" H="200" Er="4.800">
+		</layer>
+		<layer type="Copper" H="35" Negative="DefaultPositive" color="000000D0">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-B.Cu.gbr</filename>
+			<filedisp>powercard-B.Cu.gbr</filedisp>
+		</layer>
+		<layer type="SolderMask" H="35" Er="0.000" color="00000F04">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-B.Mask.gbr</filename>
+			<filedisp>powercard-B.Mask.gbr</filedisp>
+		</layer>
+		<layer type="Silkscreen" H="35" Er="0.000" color="00C9D4DC">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-B.SilkS.gbr</filename>
+			<filedisp>powercard-B.SilkS.gbr</filedisp>
+		</layer>
+		<layer type="PasteMask" H="35" Er="0.000" color="00657EB4">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-B.Paste.gbr</filename>
+			<filedisp>powercard-B.Paste.gbr</filedisp>
+		</layer>
+		<layer type="BoardOutline" H="1950">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-Edge.Cuts.gbr</filename>
+			<filedisp>powercard-Edge.Cuts.gbr</filedisp>
+		</layer>
+	</boardlayers>
+
+	<boarddrillplates>
+		<drillplate from="top" to="btm" plated="no">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard-NPTH.drl</filename>
+			<filedisp>powercard-NPTH.drl</filedisp>
+		</drillplate>
+		<drillplate from="top" to="btm" plated="yes">
+			<filename>Z:\home\cmp\git\c4puter\powercard\outputs\powercard.drl</filename>
+			<filedisp>powercard.drl</filedisp>
+		</drillplate>
+	</boarddrillplates>
+
+	<GerberSetup Incremental='no' OmitTrailingZeros='no' Milimeters='no' Len1='2' Len2='5'/>
+	<NCDSetup Guess='yes' Incremental='no' OmitTrailingZeros='no' Units='DefaultInch' Len1='2' Len2='5' Autooffset='yes'/>
+	<IPC356Setup AutoUnits='1' AutoMagnitude='1' LongPinID='yes' CpyFromDrill='yes' Autooffset='yes'/>
+	<BoardOutlineDrawing srctype='0' trackwidthMin='0.004' trackwidthSlopStart='0.01' trackwidthMetaTrsh='0.012'/>
+	<IdentifyOutline mode='0' removeoutside='yes' horizMargin='0' vertMargin='0' brushBlob='1' />
+</CAMsetup>
